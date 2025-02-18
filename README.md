@@ -17,21 +17,4 @@ The directories are divided into :
 * Scripts
 * Test Zones
 * Themes
-
-### Assets:
-Any assets & have already some prototype images for some shapes in the mock-up folder
-
-### Objects:
-Any object that is multiple used: player, door, weapon, etc...
-
-### Scenes:
-Any scene that is used in the game: menus, levels, end screen, etc...
-
-### Scripts:
-Any script are stored here: player_movement.gd, guns.gd, etc...
-
-### Test Zones:
-Testing scenes that are used to test different mechanics
-
-### Themes:
-Which have a directory for fonts that is divided into [bitmap, dynamic, raw]
+* Shaders
