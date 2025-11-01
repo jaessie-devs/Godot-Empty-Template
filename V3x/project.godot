@@ -1,0 +1,44 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="TEMPLATE"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
+window/size/resizable=false
+window/vsync/use_vsync=false
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+theme/custom="res://Themes/default.tres"
+
+[network]
+
+limits/debugger_stdout/max_chars_per_second=8192
+limits/debugger_stdout/max_messages_per_frame=512
+limits/debugger_stdout/max_errors_per_second=512
+limits/debugger_stdout/max_warnings_per_second=512
+limits/filters/msaa=1
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

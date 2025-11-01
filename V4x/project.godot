@@ -1,0 +1,50 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="TEMPLATE"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+global="*res://Scripts/Global/global.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/resizable=false
+window/stretch/mode="canvas_items"
+window/vsync/vsync_mode=0
+
+[gui]
+
+theme/custom="res://Themes/default.tres"
+
+[layer_names]
+
+2d_physics/layer_1="Card"
+2d_physics/layer_2="Hand"
+2d_physics/layer_3="Board"
+2d_physics/layer_4="None"
+
+[network]
+
+limits/debugger/max_queued_messages=8192
+limits/debugger/max_errors_per_second=1024
+limits/debugger/max_warnings_per_second=1024
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/default_environment="res://default_env.tres"
