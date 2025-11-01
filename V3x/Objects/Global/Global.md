@@ -1,0 +1,1 @@
+# Here you put any global Objects that you need
